@@ -1,0 +1,242 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\caculate.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\caculate.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 caculate"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "caculate 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2013",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CACULATE_DIALOG DIALOGEX 0, 0, 452, 263
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "caculate"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_DISPLAT,13,21,304,24,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "1",IDC_BUTTON1,65,69,31,19
+    PUSHBUTTON      "0",IDC_BUTTON0,17,69,31,19
+    PUSHBUTTON      "3",IDC_BUTTON3,17,117,31,19
+    PUSHBUTTON      "4",IDC_BUTTON4,65,117,31,19
+    PUSHBUTTON      "5",IDC_BUTTON5,113,117,31,19
+    PUSHBUTTON      ".",IDC_BUTTON_POINT,127,211,31,19
+    PUSHBUTTON      "7",IDC_BUTTON7,65,163,31,19
+    PUSHBUTTON      "8",IDC_BUTTON8,113,163,31,19
+    PUSHBUTTON      "2",IDC_BUTTON2,113,69,31,19
+    PUSHBUTTON      "9",IDC_BUTTON9,17,211,31,19
+    PUSHBUTTON      "+/-",IDC_BUTTON_SIGN,72,211,31,19
+    PUSHBUTTON      "+",IDC_BUTTON_ADD,161,69,31,19
+    PUSHBUTTON      "6",IDC_BUTTON6,17,163,31,19
+    PUSHBUTTON      "-",IDC_BUTTON_MINUS,161,117,31,19
+    PUSHBUTTON      "*",IDC_BUTTON_MUTIPLY,161,163,31,19
+    PUSHBUTTON      "/",IDC_BUTTON_DIV,182,211,31,19
+    PUSHBUTTON      "C",IDC_BUTTON_CLEAR,209,69,31,19
+    PUSHBUTTON      "sqrt",IDC_BUTTON_SQRT,209,117,31,19
+    PUSHBUTTON      "1/x",IDC_BUTTON_RECI,209,163,31,19
+    PUSHBUTTON      "=",IDC_BUTTON_EQUAL,237,211,31,19
+    PUSHBUTTON      "arccos",IDC_ARCCOS,305,163,31,19
+    PUSHBUTTON      "ln",IDC_LN,401,117,31,19
+    PUSHBUTTON      "tan",IDC_TAN,305,69,31,19
+    PUSHBUTTON      "10^x",IDC_10X,257,117,31,19
+    PUSHBUTTON      "cos",IDC_COS,257,163,31,19
+    PUSHBUTTON      "sin",IDC_SIN,292,211,31,19
+    PUSHBUTTON      "sinh",IDC_SINH,401,211,31,19
+    PUSHBUTTON      "exp",IDC_EXP,401,69,31,19
+    PUSHBUTTON      "arcsin",IDC_ARCSIN,347,211,31,19
+    PUSHBUTTON      "arctan",IDC_ARCTAN,353,117,31,19
+    PUSHBUTTON      "cosh",IDC_COSH,353,163,31,19
+    PUSHBUTTON      "log",IDC_LOG,305,117,31,19
+    CONTROL         "弧度",IDC_HUDU,"Button",BS_AUTORADIOBUTTON,346,31,32,10
+    CONTROL         "角度",IDC_JIAODU,"Button",BS_AUTORADIOBUTTON,395,31,32,
+                    10
+    PUSHBUTTON      "2^x",IDC_2DEX,401,163,31,19
+    PUSHBUTTON      "N!",IDC_NJIECHENG,257,69,31,19
+    PUSHBUTTON      "tanh",IDC_TANH,353,69,31,19
+    GROUPBOX        "Static",IDC_STATIC,7,55,438,185
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "caculate Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "caculate\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "caculate.EXE\0"
+            VALUE "ProductName", "caculate 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CACULATE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 445
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 caculate(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\caculate.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
