@@ -1,16 +1,16 @@
-caculate
+calculator
 ========
 English Introduce
 ========================================================================================================================
 Introduce:
 
-   This is a Windows appliction ,a simple caculate tool,which can run on Windows paltform.It implements some basic caculater function,including"+","-","*","/","1/x","sin","arcsin","sinh","cos","arccos","cosh","tan","arctan","sqrt","2^x","N!","tan","arctan","exp","ln","10^x" operatioins.In gernral,we can complete basic operations except trigonometric function and anti-trigonometric function ,if we want to caculate trigonometric function and anti-trigonometric function,we need choice radian or angle key.
+   This is a Windows appliction ,a simple calculate tool,which can run on Windows paltform.It complets some basic caculater function,including"+","-","*","/","1/x","sin","arcsin","sinh","cos","arccos","cosh","tan","arctan","sqrt","2^x","N!","tan","arctan","exp","ln","10^x" operatioins.In gernral,we can complete basic operations except trigonometric function and anti-trigonometric function ,if we want to caculate trigonometric function and anti-trigonometric function,we need choice radian or angle key.
 
 
 Use method:
   you can link the following URL and download it:
   [calculator link](https://github.com/Horizonyi/caculate/blob/master/dist/calculator-1.0.zip "calculator")
-  Or You need only find the named "dist" floder and decompression the file named "calculator-1.0.zip" ,you need double click "caculator-1.0.exe", you can see the application will be started.You can do some calculate on it in your computer.Though the Calculator would not be compared with other perfect software,it can easily record some something.
+  Or You need only find the named "dist" folder and decompression the file named "calculator-1.0.zip" ,you need double click "calculator-1.0.exe", you can see the application will be started .You can do some calculate on it in your computer.Though the Calculator would not be compared with other perfect software,it can easily record some something.
   The following picture is a appearance of the applicaton after the applicaton is stated!
   ![alt text](http://photo.yupoo.com/horizonying/DCGzAnd7/medish.jpg "Title")
   
