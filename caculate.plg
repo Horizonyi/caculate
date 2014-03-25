@@ -6,19 +6,18 @@
 --------------------Configuration: caculate - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating command line "rc.exe /l 0x804 /fo"Debug/caculate.res" /d "_DEBUG" "E:\caculate\caculate.rc"" 
-Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/caculate.pdb" /debug /machine:I386 /out:"Debug/caculate.exe" /pdbtype:sept  .\Debug\caculate.obj .\Debug\caculateDlg.obj .\Debug\StdAfx.obj .\Debug\caculate.res "
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Debug/caculate.pdb" /machine:I386 /out:"Debug/caculate.exe" /pdbtype:sept  ".\Debug\caculate.obj" ".\Debug\caculateDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\caculate.res" "
 <h3>Output Window</h3>
-Compiling resources...
 Linking...
-Creating command line "bscmake.exe /nologo /o"Debug/caculate.bsc"  .\Debug\StdAfx.sbr .\Debug\caculate.sbr .\Debug\caculateDlg.sbr"
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+Creating command line "bscmake.exe /nologo /o"Debug/caculate.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\caculate.sbr" ".\Debug\caculateDlg.sbr""
 Creating browse info file...
 <h3>Output Window</h3>
 
 
 
 <h3>Results</h3>
-caculate.exe - 0 error(s), 0 warning(s)
+caculate.exe - 0 error(s), 1 warning(s)
 </pre>
 </body>
 </html>
